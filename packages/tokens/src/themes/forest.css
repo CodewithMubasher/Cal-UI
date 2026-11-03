@@ -1,0 +1,4 @@
+[data-theme="forest"] {
+  --accent: oklch(0.6 0.15 150);
+  --accent-foreground: oklch(1 0 0);
+}

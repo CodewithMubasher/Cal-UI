@@ -1,0 +1,5 @@
+[data-style="sharp"] {
+  --radius: 0rem;
+  --border-width: 2px;
+  --shadow: 4px 4px 0 0 oklch(0 0 0);
+}

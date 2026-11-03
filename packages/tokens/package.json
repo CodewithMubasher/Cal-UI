@@ -1,0 +1,12 @@
+{
+  "name": "@cal-ui/tokens",
+  "version": "0.0.1",
+  "type": "module",
+  "files": ["src"],
+  "exports": {
+    ".": "./src/index.css",
+    "./styles/*.css": "./src/styles/*.css",
+    "./themes/*.css": "./src/themes/*.css"
+  },
+  "publishConfig": { "access": "public" }
+}

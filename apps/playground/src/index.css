@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+/* Cal UI tokens + presets */
+@import "@cal-ui/tokens";
+@import "@cal-ui/tokens/styles/compact.css";
+@import "@cal-ui/tokens/styles/sharp.css";
+@import "@cal-ui/tokens/themes/forest.css";
+@import "@cal-ui/tokens/themes/ocean.css";
+@import "@cal-ui/tokens/themes/rose.css";
+
+/* Let Tailwind see the classes inside the built library */
+@source "../../../packages/react/dist";
+
+body {
+  font-family: var(--font-body);
+  background: var(--background);
+  color: var(--foreground);
+}
